@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>中国移动</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+	<body>
+		<div class="container quan">
+			<div class="contant contant1">
+				<ul>
+					<li><a href="">ENGLISH</a></li>
+					<li><a href="">政企客户</a></li>
+				</ul>
+				<ul>
+					<li class="log"><a href=""><img src="img/ren.png"/>登录</a></li>
+					<li><a href=""><img src="img/shouji.png"/>手机营业厅</a><img src="img/new.gif" alt="" /></li>
+					<li><a href="">积分商城</a></li>
+					<li><a href="">关于中国移动</a></li>
+					<li><a href="">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="login">
+				<span>登录移动商城</span>
+				<span>登录网上营业厅</span>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contant contant2">
+				<ul>
+					<li>
+						<img src="img/logo.png"/>
+						<b class="ty">太原</b>
+						<span class="unfold"></span>
+					</li>
+					<li class="search">
+						<input type="text" placeholder="包月流量包" /><button>搜索</button>
+						<ul>
+							<li><a href="">资费专区</a></li>
+							<li><a href="" style="color: #e40077;">选号入网</a></li>
+							<li><a href="">彩铃</a></li>
+							<li><a href="" style="color: #e40077;">通话记录</a></li>
+							<li><a href="">宽带</a></li>
+							<li><a href="" style="color: #e40077;">来电显示</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="addr">
+				<span>山西</span> <span class="return">[返回全部省份]</span>
+				<p>
+					<a href="">太原</a>
+					<a href="">朔州</a>
+					<a href="">忻州</a>
+					<a href="">大同</a>
+					<a href="">阳泉</a>
+					<a href="">晋中</a>
+					<a href="">长治</a>
+					<a href="">晋城</a>
+					<a href="">临汾</a>
+					<a href="">吕梁</a>
+					<a href="">运城</a>
+				</p>
+				<div class="province">
+					<p>全部省份</p>
+					<ul>
+						<li>
+							<b>|</b> A-G &nbsp;
+							<a href="">北京></a>
+							<a href="">安徽></a>
+							<a href="">重庆></a>
+							<a href="">福建></a>
+							<a href="">广东></a>
+							<a href="">广西></a>
+							<a href="">甘肃></a>
+							<a href="">贵州></a>
+						</li>
+						<li>
+							<b>|</b> H-J &nbsp;
+							<a href="">河北></a>
+							<a href="">海南></a>
+							<a href="">湖南></a>
+							<a href="">湖北></a>
+							<a href="">黑龙江></a>
+							<a href="">吉林></a>
+							<a href="">江苏></a>
+							<a href="">江西></a>
+						</li>
+						<li>
+							<b>|</b> L-S &nbsp;
+							<a href="">辽宁></a>
+							<a href="">内蒙古></a>
+							<a href="">宁夏></a>
+							<a href="">青海></a>
+							<a href="">上海></a>
+							<a href="">四川></a>
+							<a href="">山东></a>
+							<a href="">山西></a>
+						</li>
+						<li>
+							<b>|</b> T-Z &nbsp;
+							<a href="">天津></a>
+							<a href="">新疆></a>
+							<a href="">西藏></a>
+							<a href="">云南></a>
+							<a href="">浙江></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contant contant3">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">移动商城</a></li>
+					<li><a href="">我的移动</a></li>
+					<li><a href="">网上移动厅</a></li>
+					<li><a href="">服务与支持</a></li>
+				</ul>
+				<div class="nav">
+					<ul>
+						<li>
+							<ul>
+								<li><a href="">买手机 </a></li>
+								<li><a href="">办套餐 </a></li>
+								<li><a href="">办业务 </a></li>
+								<li><a href="">挑配件 </a></li>
+								<li><a href="">立即充值 </a></li>
+								<li><a href="">个人中心 </a></li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li><a href="">我的账户</a></li>
+								<li><a href="">套餐余量查询</a></li>
+								<li><a href="">业务状态查询</a></li>
+								<li><a href="">详情查询</a></li>
+								<li><a href="">账单查询</a></li>
+								<li><a href="">积分查询</a></li>
+								<li><a href="">星级查询</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li><a href="">网上充值</a></li>
+								<li><a href="">话费服务</a></li>
+								<li><a href="">资费套餐</a></li>
+								<li><a href="">选号入网</a></li>
+								<li><a href="">优惠购机</a></li>
+								<li><a href="">业务办理</a></li>
+								<li><a href="">优惠促销</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li><a href="">查询</a></li>
+								<li><a href="">资费专区</a></li>
+								<li><a href="">终端售后点查询</a></li>
+								<li><a href="">国际/港澳台</a></li>
+								<li><a href="">星级服务</a></li>
+								<li><a href="">手机营业厅</a></li>
+								<li><a href="">大数据应用</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contant contant4">
+				<ul>
+					<li class="left">
+						<p>直达移动商城</p>
+						<p><img src="img/shouji.gif"/>买手机</p>
+						<p><img src="img/shopclass02.gif"/>办套餐</p>
+						<p><img src="img/shopclass03.gif"/>办业务</p>
+						<p><img src="img/shopclass05.gif"/>挑配件</p>
+						<p><img src="img/grzx.jpg"/>个人中心</p>
+					</li>
+					<li class="lunbo">
+						<div id="banner">
+							<img src="img/mb1.jpg"/>
+							<img src="img/mb11.jpg"/>
+							<img src="img/mb12.jpg"/>
+							<img src="img/mb13.jpg"/>
+							<img src="img/mb14.jpg"/>
+							<img src="img/mb15.jpg"/>
+							<img src="img/mb16.jpg"/>
+						</div>
+						<div id="btn"></div>
+					</li>
+					<li class="right">
+						<ul>
+							<li>
+								<img src="img/mb2.jpg"/>
+								<p>话费查询</p>
+							</li>
+							<li>
+								<img src="img/mb21.jpg"/>
+								<p>流量查询</p>
+							</li>
+							<li>
+								<img src="img/mb22.jpg"/>
+								<p>国际/港澳台</p>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<img src="img/mb23.jpg"/>
+								<p>积分兑换</p>
+							</li>
+							<li>
+								<img src="img/mb24.jpg"/>
+								<p>优惠促销</p>
+							</li>
+							<li>
+								<img src="img/mb25.jpg"/>
+								<p>选号入网</p>
+							</li>
+						</ul>
+						<p><b>充值缴费</b> <span style="color: red;margin-left: 80px;">9.98折</span></p>
+						<p><input type="text" placeholder="请输入手机号" /></p>
+						<p class="bor"><span>50元</span> <span class="yibai">100元</span> <span>300元</span> <span>500元</span> <span>其他</span></p>
+						<p><button>立即充值</button></p>
+					</li>
+				</ul>
+			</div>
+		</div>	
+		<div class="container">
+			<div class="contant contant5">
+				<p>4G专区</p>
+				<ul>
+					<li><a href=""><img src="img/mb3.jpg"/></a></li>
+					<li>
+						<ul class="move">
+							<li><a href=""><p>4G上网套餐</p><span>让您体验更快的上网速度</span><img class="img" src="img/mb31.jpg"/></a></li>
+							<li><a href=""><p>4G套餐</p><span>加速加量不加价</span><img class="img" src="img/mb32.jpg"/></a></li>
+							<li><a href=""><a href=""><p>4G飞套餐享</p><span>超值套餐 点32个赞</span><img class="img" src="img/mb33.jpg"/></a></li>
+						</ul>
+						<ul class="move">
+							<li><a href=""><a href=""><p>高清语音(VolTE)</p><span>低延时，高品质，通话上网...</span><img class="img" src="img/mb34.jpg"/></a></li>
+							<li><a href=""><a href=""><p>4G自选套餐</p><span>自由搭配套餐 实惠更多</span><img class="img" src="img/mb35.jpg"/></a></li>
+							<li><a href=""><a href=""><p>4G手机</p><span>4G手机 品牌、厂家手机</span><img class="img" src="img/mb6.jpg"/></a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contant contant6">
+				<p>买手机</p>
+				<ul class="move">
+					<li>
+						<a href="">
+							<span>三星On5(G5520)</span>
+							<span style="color: cornflowerblue;">金属机身 指纹支付</span>
+							<span style="color: mediumvioletred;font-size: 19px;">￥1099</span>
+							<img class="img" src="img/mb4.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span>中国移动A1S</span>
+							<span style="color: cornflowerblue;">享套餐5折</span>
+							<span style="color: mediumvioletred;font-size: 19px;">￥1099</span>
+							<img class="img" src="img/mb41.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span>华为畅享5S</span>
+							<span style="color: cornflowerblue;">金属机身 快速指纹识别</span>
+							<span style="color: mediumvioletred;font-size: 19px;">￥1199</span>
+							<img class="img" src="img/mb42.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span>华为G7Plus</span>
+							<span style="color: cornflowerblue;">享套餐5折</span>
+							<span style="color: mediumvioletred;font-size: 19px;">￥1099</span>
+							<img class="img" src="img/mb43.jpg"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contant contant7">
+				<p>业务推荐</p>
+				<ul>
+					<li><img src="img/mb5.jpg"/></li>
+					<li>
+						<ul class="move">
+							<li><a href=""><p>两城一家</p><span>两城一家 为你省到家</span><img class="img" src="img/mb51.jpg"/></a></li>
+							<li><a href=""><p>流量放心包</p><span>随心浏览 放心上网</span><img class="img" src="img/mb52.jpg"/></a></li>
+							<li><a href=""><p>家庭网</p><span>家庭沟通专享 亲情欢乐随行</span><img src="img/mb53.jpg"/></a></li>
+						</ul>
+						<ul class="move">
+							<li><a href=""><p>手机报</p><span>让您轻松了解最新动态</span><img class="img" src="img/mb54.jpg"/></a></li>
+							<li><a href=""><p>季年流量包</p><span>季年流量特惠 上网聚优惠</span><img class="img" src="img/mb55.jpg"/></a></li>
+							<li><a href=""><p>包月流量包</p><span>流量费用双封顶 用的安心</span><img class="img" src="img/mb56.jpg"/></a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contant contant8">
+				<ul>
+					<li>服务渠道</li>
+					<li><a href="">自助终端</a></li>
+					<li><a href="">10086热线</a></li>
+					<li><a href="">实体营业厅</a></li>
+					<li><a href="">短信营业厅</a></li>
+					<li><a href="">网上营业厅</a></li>
+					<li><a href="">掌上/手机营业厅</a></li>
+				</ul>
+				<ul>
+					<li>站点导航</li>
+					<li><a href="">MM</a></li>
+					<li><a href="">飞信</a></li>
+					<li><a href="">和包</a></li>
+					<li><a href="">和阅读</a></li>
+					<li><a href="">网上营业厅</a></li>
+					<li><a href="">139邮箱</a></li>
+					<li><a href="">咪咕音乐</a></li>
+				</ul>
+				<ul>
+					<li>快捷服务</li>
+					<li><a href="">套餐变更</a></li>
+					<li><a href="">充值中心</a></li>
+					<li><a href="">话费查询</a></li>
+					<li><a href="">套餐余量</a></li>
+					<li><a href="">账单查询</a></li>
+					<li><a href="">星级查询</a></li>
+				</ul>
+				<ul>
+					<li>常见问题</li>
+					<li><a href="">忘记密码怎么办</a></li>
+					<li><a href="">话费余额查询</a></li>
+					<li><a href="">通过网银如何缴费</a></li>
+					<li><a href="">如何查询我的积分</a></li>
+					<li><a href="">密码如何修改</a></li>
+					<li><a href="">充值卡如何使用</a></li>
+				</ul>
+				<ul>
+					<li>商城服务指南</li>
+					<li><a href="">购物指南</a></li>
+					<li><a href="">付款方式</a></li>
+					<li><a href="">物流配送</a></li>
+					<li><a href="">售后服务</a></li>
+					<li><a href="">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contant contant9">
+				<p>
+					<a href="">新闻中心</a> |
+					<a href="">诚聘英才</a> |
+					<a href="">采购信息</a> |
+					<a href="">企业合作</a> |
+					<a href="">站点导航</a> |
+					<a href="">中国移动研究院</a> |
+					<a href="">中国移动设计院</a> |
+					<a href="">网站地图</a> |
+					<a href="">友情链接</a>
+				</p>
+				<p> 掌上营业厅：wap.10086.cn 语音自助服务：10086 短信营业厅：10086 自助终端 营业厅 手机营业厅下载</p>
+				<p>Copyright©1999-2016  &nbsp;中国移动  &nbsp;版权所有</p>
+				<p>中华人民共和国增值电信业务经营许可证  &nbsp;经营许可证编号：A2.B1.B2-20100001</p>
+				<p><img src="img/knetSealLogo.png"/> <img src="img/gov.gif"/><a href="">京ICP备05002571号</a></p>
+			</div>
+		</div>
+	</body>
+	<!--<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>-->
+	<script>
+		window.jQuery || document.write("<script src='js/jquery_1.9.js'><\/script>");
+	</script>
+	<script src="js/mobile.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery2.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle2.js"></script>
+    <script type="text/javascript"> 
+	$(function(){
+		$('#banner').cycle({ 
+				fx:'scrollLeft',
+				pager:'#btn'
+		});
+	})
+    </script>
+    
+</html>

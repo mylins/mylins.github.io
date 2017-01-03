@@ -1,0 +1,54 @@
+#menu { position: fixed; right: 20px; top: 50%; width: 90px; margin: -160px 0 0; padding: 0; list-style-type: none; z-index: 70;}
+#menu li { margin-top: 10px; font: 14px "Microsoft Yahei";}
+#menu a { display: block; padding: 10px 0; background-color: #fff; color: #0074EA; text-align: center; text-decoration: none;}
+#menu .active a { color: #fff; background-color: rgb(0, 116, 234);}
+.section { text-align: center; color: #fff;}
+.section1 { background: url(../img/tianjinzhiyan.jpg); font: 40px "Microsoft Yahei"; }
+
+.science-inner { position: relative; width: 980px; height: 850px; margin: 0 auto; background-image: url(images/bg-kj_4d6c383.png); overflow: hidden;}
+.famous-inner { position: relative; width: 980px; height: 850px; margin: 0 auto; background-image: url(images/renwu-bg_c26f167.png); overflow: hidden;}
+.social-inner { position: relative; width: 980px; height: 850px; margin: 0 auto; background-image: url(images/bj-so_ff09f3c.png); overflow: hidden;}
+.net-inner { position: relative; width: 980px; height: 850px; margin: 0 auto; background-image: url(images/bj-net_3cad4e6.png); overflow: hidden;}
+
+.science-inner a { text-decoration: none; color: #004b85; float: left; position: absolute; display: inline-block; white-space: nowrap }
+.science-inner a:hover { color: #1c9cff }
+.science-inner .stiteml { font-size: 16px; padding-left: 37px; background: url(images/num-keji_3f60772.png) 0 0 no-repeat }
+.science-inner .stitemr { font-size: 16px; padding-right: 37px; background: url(images/num-keji_3f60772.png) 0 0 no-repeat }
+.science-inner .st1 { background-position: 0 4px }
+.science-inner .st2 { background-position: 0 -59px }
+.science-inner .st3 { background-position: 0 -59px }
+.science-inner .st4 { font-size: 48px; background-position: 0 -104px }
+.science-inner .st5 { background-position: 0 -195px }
+.science-inner .st6 { background-position: 0 -267px }
+.science-inner .st7 { background-position: 0 -244px; font-size: 48px }
+.science-inner .st8 { background-position: 0 -267px }
+.science-inner .st9 { background-position: 78px -350px }
+.science-inner .st10 { background-position: 79px -431px }
+.science-inner .st11 { background-position: 147px -502px }
+.science-inner .st12 { background-position: 342px -481px; font-size: 48px }
+.science-inner .st13 { background-position: 0 -573px; padding-left: 47px }
+.science-inner .st14 { background-position: 0 -626px; padding-left: 47px; font-size: 48px }
+.science-inner .st15 { background-position: 0 -646px; padding-left: 47px }
+.science-inner .st16 { background-position: 0 -646px; padding-left: 47px }
+.science-inner .st17 { background-position: 0 -732px; padding-left: 47px }
+
+
+
+.section2{ background: url(../img/cifangzi.jpg); font: 30px "Microsoft Yahei"; color: orangered;}
+.section2 p{
+	position: relative; 
+	bottom: -120%;
+}
+.section3{ background: url(../img/oumao.jpg); font: 30px "Microsoft Yahei"; color: #90f;}
+.section3 p{
+	position: relative; 
+	left: -120%;
+}
+
+.zanzhu { text-align: left;}
+.zanzhu-con { width: 880px; height: 273px; margin: 0 auto; overflow: hidden; zoom: 1;}
+.zanzhu h2 { position: relative; left: 28px; width: 880px; margin: 0 auto 20px; font: 500 30px "Microsoft Yahei"; color: #856B37;}
+.zanzhu-con a { display: none; float: left; margin: 0 0 10px 28px;}
+
+.foot { margin-top: 100px; line-height: 30px; color: #666; font-size: 12px; text-align: center;}
+.foot a { color: #0074EA;}

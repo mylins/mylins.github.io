@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>天津一日游</title>
+<!--<link rel="stylesheet" href="http://www.dowebok.com/demo/2014/77/css/jquery.fullPage.css">-->
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+<link rel="stylesheet" href="css/fullpage.css">
+<!--<script src="http://cdn.staticfile.org/jquery/1.8.3/jquery.min.js"></script>-->
+<!--<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>-->
+<script>
+	window.jQuery || document.write("<script src='js/jquery.min1.js'><\/script>");
+</script>
+<!--<script src="http://cdn.staticfile.org/jqueryui/1.10.3/jquery-ui.min.js"></script>-->
+<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="http://www.dowebok.com/demo/2014/77/js/jquery.fullPage.min.js"></script>-->
+<script src="js/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+$(document).ready(function() {
+	$.fn.fullpage({
+		slidesColor: ['', '#E9E9E9', '', '', '#F9F3DC'],
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+		menu: '#menu',
+		afterRender: function(){
+			$('.inner a').each(function(){
+				var $rel = $(this).attr('rel');
+				var $arr = $rel.split(',');
+				$(this).animate({
+					left: $arr[0] + 'px',
+					top: $arr[1] + 'px'
+				}, 500);
+			});
+		},
+		afterLoad: function(anchorLink, index){
+			if(index == 2){
+				$('.inner').eq(index - 2).find('a').each(function(){
+					var $rel = $(this).attr('rel');
+					var $arr = $rel.split(',');
+					$(this).animate({
+						left: $arr[2] + 'px',
+						top: $arr[3] + 'px'
+					}, 500);
+				});
+			}
+			if(index == 3){
+				$('.section3').find('p').delay(500).animate({
+					left: '0'
+				}, 1500, 'easeOutExpo');
+				$('.section3').find('h2').delay(500).animate({
+					right: '0'
+				}, 1500, 'easeOutExpo');
+			}
+			if(index == 4){
+				$('.section2').find('p').delay(500).animate({
+					bottom: '0'
+				}, 1500, 'easeOutExpo');
+				$('.section2').find('h2').delay(500).animate({
+					top: '0'
+				}, 1500, 'easeOutExpo');
+			}
+			if(index == 5){
+				$('.zanzhu-con a').fadeIn(1000);
+			}
+		},
+		onLeave: function(index, direction){
+			if(index == 2){
+				$('.inner').eq(index - 2).find('a').each(function(){
+					var $rel = $(this).attr('rel');
+					var $arr = $rel.split(',');
+					$(this).animate({
+						left: $arr[0] + 'px',
+						top: $arr[1] + 'px'
+					}, 500);
+				});
+			}
+			if(index == 3){
+				$('.section3').find('p').delay(500).animate({
+					left: '-120%'
+				}, 1500, 'easeOutExpo');
+				$('.section3').find('h2').delay(500).animate({
+					right: '-120%'
+				}, 1500, 'easeOutExpo');
+			}
+			if(index == 4){
+				$('.section2').find('p').delay(500).animate({
+					bottom: '-120%'
+				}, 1500, 'easeOutExpo');
+				$('.section2').find('h2').delay(500).animate({
+					top: '-620%'
+				}, 1500, 'easeOutExpo');
+			}
+			if(index == 5){
+				$('.zanzhu-con a').fadeOut(1000);
+			}
+		}
+	});
+});
+</script>
+</head>
+
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="page1" class="active"><a href="#page1">TOP</a></li>
+	<li data-menuanchor="page2"><a href="#page2">风情街</a></li>
+	<li data-menuanchor="page3"><a href="#page3">欧贸</a></li>
+	<li data-menuanchor="page4"><a href="#page4">瓷房子</a></li>
+	<li data-menuanchor="page5"><a href="#page5">美食推荐</a></li>
+</ul>
+
+<div class="section section1">
+	<h1>天津一日游</h1>
+	<p>--------2016年10月16日</p>
+	<span style="font-family: '方正粗圆简体';">-------------毕 琳 琳</span>
+</div>
+
+<div class="section">
+	<div class="science-inner inner">
+		<a class="stiteml st1" href="javascript:void(0)" rel="0,-350,0,15">位于天津市</a>
+		<a class="stiteml st2" href="javascript:void(0)" rel="0,-350,0,45">原意大利租界</a>
+		<a class="stiteml st3" href="javascript:void(0)" rel="0,-350,0,76">意大利风情区</a>
+		<a class="stiteml st4" href="javascript:void(0)" rel="0,-350,0,96">LOGO</a>
+		<a class="stiteml st5" href="javascript:void(0)" rel="1010,116,514,116">这里的意式风格的小洋楼成群,和解放路的银行大厦截然不同</a>
+		<a class="stiteml st6" href="javascript:void(0)" rel="1010,146,514,146">波罗故乡的古老小镇，温馨又随和。</a>
+		<a class="stiteml st7" href="javascript:void(0)" rel="1010,163,514,168">彷佛置身于马可</a>
+		<a class="stiteml st8" href="javascript:void(0)" rel="1010,236,514,241">街区中心喷水柱的圆形广场的名字，就叫马可·波罗。</a>
+		<a class="stitemr st9" href="javascript:void(0)" rel="-710,346,70,374">天津意式风情街以体现浓郁的意大利风情为宗旨</a>
+		<a class="stitemr st10" href="javascript:void(0)" rel="-710,376,0,404">是集旅游、商贸、娱乐和文博为一体的综合性多功能区。</a>
+		<a class="stitemr st11" href="javascript:void(0)" rel="-710,406,84,434">景区紧挨着海河，有大量意大利风情建筑。</a>
+		<a class="stitemr st12" href="javascript:void(0)" rel="-710,433,30,471">有大量意式建筑</a>
+		<a class="stiteml st13" href="javascript:void(0)" rel="761,1050,761,516">曹禺故居</a>
+		<a class="stiteml st14" href="javascript:void(0)" rel="761,1050,761,533">故居</a>
+		<a class="stiteml st15" href="javascript:void(0)" rel="761,1050,761,597">李叔同故居等</a>
+		<a class="stimg1" href="javascript:void(0)" rel="0,-350,0,161"><img width="181" height="166" src="img/f11.jpg"></a>
+		<a class="stimg2" href="javascript:void(0)" rel="980,10,220,18"><img width="313" height="317" src="img/f22.jpg"></a>
+		<a class="stimg3" href="javascript:void(0)" rel="-407,350,413,358"><img width="313" height="235" src="img/f33.jpg"></a>
+		<a class="stimg4" href="javascript:void(0)" rel="761,850,761,358"><img width="200" height="138" src="img/f44.jpg"></a>
+	</div>
+</div>
+
+<div class="section section3">
+	<h2>欧洲贸易中心</h2>
+	<h2>The Europe Trade Centre</h2>
+	<p>一个充满欧洲生活、文化与艺术的商业地标</p>
+	<p>A commercial landmark in China featuring European culture, </p>
+	<p>art and life style.</p>
+</div>
+
+<div class="section section2">
+		<h2>瓷房子</h2>
+		<p>一幢举世无双的建筑</p>
+		<p>一座价值连城的“中国古瓷博物馆”</p>
+		<p>由瓷房主人张连志亲自设计</p>
+		<p>瓷房子建在天津和平区赤峰道上。</p>
+		<p>赤峰道东起海河，西到墙子河，横贯原来的法租界。</p>
+</div>
+
+<div class="section">
+	<div class="zanzhu">
+		<h2>天津美食推荐</h2>
+		<div class="zanzhu-con">
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m1.jpg" title="狗不理包子"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m2.jpg" title="耳朵眼炸糕"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m3.png" title="煎饼果子"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m4.jpg" title="锅巴菜"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m5.jpg" title="芝兰斋糕干"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m6.jpg" title="圈卷"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m7.jpg" title="什锦烧饼"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m8.jpg" title="上岗子面茶"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m9.jpg" title="熟梨糕"></a>
+			<a href="javascript:void(0)"><img width="190" height="76" src="img/m10.jpg" title="十八街麻花"></a>
+		</div>
+		<div class="foot clearfix">
+			<p class="bd">如果想知道更多天津美食请到<a target="_blank" href="http://www.baidu.com">百度</a>观看，如想咨询意见请拨打<a target="_blank" href="">18435155853</a>或加QQ<a href="">17226555988</a>了解咨询详情。</p>
+		</div>
+	</div>
+</div>
+
+<!--<a href="http://www.dowebok.com/" style="display: none;">dowebok</a>
+<a href="http://www.dowebok.com/78.html" style="display: none;">用fullPage.js制作百度百科史记2013效果</a>
+<a href="http://www.dowebok.com/77.html" style="display: none;">jQuery全屏滚动插件fullPage.js</a>
+<script src=" http://hm.baidu.com/h.js?988268596e7a833ffbfb2e9f82d93e18"></script>-->
+
+</body>
+</html>
